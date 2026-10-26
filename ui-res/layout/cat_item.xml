@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true" android:clickable="true" android:soundEffectsEnabled="true" android:stateListAnimator="@animator/ui_card_motion"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp"
+    app:cardCornerRadius="@dimen/ui_corner_radius" app:cardBackgroundColor="@color/ui_card_surface"
+    app:cardElevation="0dp" app:strokeColor="@color/ui_card_border" app:strokeWidth="1dp" app:rippleColor="@color/ui_ripple">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:padding="16dp"
+        android:duplicateParentState="true" android:minHeight="80dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView android:id="@id/cat_image"
+            android:layout_width="44dp" android:layout_height="44dp" android:contentDescription="@string/description"
+            app:civ_border_color="@color/ui_border" app:civ_border_width="1dp" />
+        <com.cricfytv.sports.Utf8SafeTextView android:id="@id/cat_name" android:textSize="17sp"
+            android:fontFamily="sans-serif-medium" android:textColor="@color/ui_text" android:ellipsize="end" android:maxLines="1"
+            android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1"
+            android:layout_marginStart="16dp" android:layout_marginEnd="12dp" />
+        <ImageButton android:id="@id/edit_btn" android:visibility="gone" android:src="@drawable/ic_edit"
+            android:contentDescription="@string/ui_edit_category" android:background="@drawable/ui_control_background"
+            android:soundEffectsEnabled="true" android:padding="13dp" android:layout_width="48dp" android:layout_height="48dp" app:tint="@color/ui_text" />
+        <ImageView android:src="@drawable/ui_chevron_right" android:importantForAccessibility="no"
+            android:layout_width="20dp" android:layout_height="20dp" />
+    </LinearLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@id/error_layout" android:orientation="vertical" android:gravity="center" android:background="@color/ui_background"
+    android:padding="32dp" android:focusable="true" android:clickable="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@id/error_title" android:text="@string/request_failed" android:textAlignment="center"
+        android:fontFamily="@font/ui_inter_semibold" android:textSize="25sp" android:textColor="@color/ui_text"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" />
+    <TextView android:id="@id/error_des" android:text="@string/connection_error" android:textAlignment="center"
+        android:fontFamily="@font/ui_inter_regular" android:textSize="15sp" android:textColor="@color/ui_text_secondary"
+        android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12dp" />
+    <LinearLayout android:orientation="horizontal" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="24dp">
+        <com.google.android.material.button.MaterialButton android:id="@id/retry_btn" android:text="@string/retry"
+            android:fontFamily="@font/ui_inter_medium" android:textAllCaps="false" android:textColor="@color/ui_background"
+            android:layout_width="180dp" android:layout_height="52dp" android:soundEffectsEnabled="true" android:stateListAnimator="@animator/ui_card_motion"
+            app:backgroundTint="@color/ui_accent" app:cornerRadius="@dimen/ui_corner_radius" />
+        <com.google.android.material.button.MaterialButton android:id="@id/website_btn" android:visibility="gone" android:text="@string/web"
+            android:layout_width="wrap_content" android:layout_height="52dp" android:layout_marginStart="12dp" style="@style/Widget.Cricfy.Ui.NavigationButton" />
+    </LinearLayout>
+</LinearLayout>

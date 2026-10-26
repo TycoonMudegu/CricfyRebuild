@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ui_page_padding">32dp</dimen>
+    <dimen name="ui_sport_tile_size">76dp</dimen>
+    <dimen name="ui_home_bottom_inset">24dp</dimen>
+</resources>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ui_home_title">Watch</string>
+    <string name="ui_home_subtitle">Your front row to live sport.</string>
+    <string name="ui_browse_sports">Browse sports</string>
+    <string name="ui_live_upcoming">Live &amp; upcoming</string>
+    <string name="ui_choose_category">Choose a category</string>
+    <string name="ui_category_hint">Find something you love to watch.</string>
+    <string name="ui_open_menu">Open navigation</string>
+    <string name="ui_edit_category">Edit category</string>
+</resources>

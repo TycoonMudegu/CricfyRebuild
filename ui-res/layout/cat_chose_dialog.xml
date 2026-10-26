@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:background="@drawable/ui_dialog_background" android:padding="16dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+    <com.google.android.material.appbar.MaterialToolbar android:id="@id/toolbar"
+        android:background="@android:color/transparent" android:layout_width="match_parent" android:layout_height="64dp"
+        app:menu="@menu/toolbar_menu_search" app:navigationIcon="@drawable/ic_clear" app:navigationIconTint="@color/ui_text_secondary"
+        app:title="@string/ui_choose_category" app:titleTextAppearance="@style/TextAppearance.Cricfy.Ui.Toolbar" app:titleTextColor="@color/ui_text" />
+    <TextView android:text="@string/ui_category_hint" android:textSize="14sp" android:fontFamily="sans-serif"
+        android:textColor="@color/ui_text_secondary" android:paddingStart="12dp" android:paddingEnd="12dp"
+        android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="16dp" />
+    <ListView android:id="@id/optionsListView" android:paddingBottom="16dp" android:scrollbars="none" android:clipToPadding="false"
+        android:soundEffectsEnabled="true" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:listSelector="@drawable/ui_control_background" android:drawSelectorOnTop="false"
+        android:divider="@android:color/transparent" android:dividerHeight="8dp" />
+</LinearLayout>

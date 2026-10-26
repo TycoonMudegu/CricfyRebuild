@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ui_corner_radius">20dp</dimen>
+    <dimen name="ui_page_padding">20dp</dimen>
+    <dimen name="ui_sport_tile_size">72dp</dimen>
+    <dimen name="ui_home_bottom_inset">92dp</dimen>
+</resources>

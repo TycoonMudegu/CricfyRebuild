@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:focusable="true" android:clickable="true" android:soundEffectsEnabled="true"
+    android:stateListAnimator="@animator/ui_card_motion"
+    android:layout_width="104dp" android:layout_height="96dp"
+    android:layout_marginTop="3dp" android:layout_marginBottom="3dp" android:layout_marginEnd="10dp"
+    app:cardCornerRadius="@dimen/ui_corner_radius" app:cardBackgroundColor="@color/ui_card_surface"
+    app:cardElevation="0dp" app:strokeColor="@color/ui_card_border" app:strokeWidth="1dp" app:rippleColor="@color/ui_ripple">
+    <FrameLayout android:duplicateParentState="true" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:id="@id/event_cat_image" android:layout_gravity="top|center_horizontal" android:layout_marginTop="12dp"
+            android:layout_width="40dp" android:layout_height="40dp" android:scaleType="centerInside"
+            android:src="@drawable/ic_sports" android:contentDescription="@string/sports" />
+        <TextView android:id="@id/cat_item_count" android:layout_gravity="bottom" android:text="@string/sports"
+            android:fontFamily="@font/ui_inter_medium" android:textSize="12sp" android:textColor="@color/ui_text_selector"
+            android:duplicateParentState="true" android:gravity="center" android:ellipsize="end" android:maxLines="1"
+            android:paddingStart="8dp" android:paddingEnd="8dp" android:layout_width="match_parent" android:layout_height="20dp" android:layout_marginBottom="10dp" />
+    </FrameLayout>
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ui_background">#0D0F13</color>
+    <color name="ui_surface">#191C22</color>
+    <color name="ui_surface_raised">#252A33</color>
+    <color name="ui_border">#343A45</color>
+    <color name="ui_text">#F5F5F7</color>
+    <color name="ui_text_secondary">#A4AAB7</color>
+    <color name="ui_accent">#C0D5F4</color>
+    <color name="ui_focus">#E8EFFA</color>
+    <color name="ui_ripple">#18FFFFFF</color>
+</resources>

@@ -1,0 +1,33 @@
+# Local toolchain, original APK, and generated decompilation/build output.
+/.tools/
+/analysis/
+/build/
+/decoded*/
+/reference/
+*.apk
+*.apks
+*.aab
+*.dex
+*.so
+
+# Signing material and local credentials.
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.key
+*.pem
+*.cer
+.env
+.env.*
+!.env.example
+
+# Local caches, logs, and editor state.
+__pycache__/
+*.py[cod]
+*.log
+*.tmp
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

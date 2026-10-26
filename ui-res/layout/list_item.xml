@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@android:id/text1" android:textSize="16sp" android:fontFamily="sans-serif-medium"
+    android:textColor="@color/ui_text" android:gravity="center_vertical" android:background="@android:color/transparent"
+    android:paddingTop="18dp" android:paddingBottom="18dp" android:paddingStart="20dp" android:paddingEnd="20dp"
+    android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="64dp"
+    android:drawablePadding="16dp" android:soundEffectsEnabled="true"
+    app:drawableStartCompat="@drawable/ic_playlist" app:drawableEndCompat="@drawable/ui_chevron_right" app:drawableTint="@color/ui_text_secondary" />
